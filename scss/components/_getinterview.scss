@@ -1,0 +1,31 @@
+.get-interview {
+  .get-interview_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+    .get-interview_radio-container {
+      .get-interview_input {
+        display: none;
+      }
+      .get-interview_input:checked + label {
+        border: 1px solid #00a310;
+        background-color: rgba(0, 163, 16, 0.15);
+      }
+      .get-interview_input:checked + label.get-interview_no {
+        border: 1px solid #b21b20;
+        background-color: rgba(178, 27, 32, 0.15);
+      }
+
+      .get-interview_label {
+        position: relative;
+        padding-bottom: 0;
+        border-radius: 7px;
+        width: 147px;
+        height: 168px;
+        border: 1px solid #ccc;
+      }
+    }
+  }
+}

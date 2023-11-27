@@ -1,0 +1,26 @@
+:root {
+  --bg-color-primary: #000;
+  --bg-color-secondary: #b21b20;
+  --text-color-primary: #f47b20;
+  --text-color-secondary: #fff;
+}
+
+.font-color_orange {
+  color: var(--text-color-primary);
+}
+
+.font-color_white {
+  color: var(--text-color-secondary);
+}
+
+.font-color_red {
+  color: var(--bg-color-secondary);
+}
+
+.bg-color_primary {
+  background-color: var(--bg-color-primary);
+}
+
+.bg-color_secondary {
+  background-color: var(--bg-color-secondary);
+}

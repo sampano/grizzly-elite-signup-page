@@ -1,0 +1,126 @@
+.ico {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+
+.st-arrow {
+  fill: #fff;
+  animation: scrolly 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
+  perspective: 9000px;
+  transform: translateZ(0);
+  transform-origin: bottom;
+}
+
+.st-arrow.st-arrow_firstName {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_email {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_bday {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_uni {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_ecs {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_upload {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_academy {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_parent-details {
+  fill: #737373;
+}
+.st-arrow.st-arrow_opinion .svg {
+  z-index: 9;
+  position: relative;
+}
+
+@keyframes scrolly {
+  0% {
+    transform: translate3d(-150%, -20%, 0) rotateY(0deg) scale(0.5) skewY(0deg);
+  }
+  30% {
+    transform: translate3d(0, 0, 0) rotateY(0deg) scale(1) skewY(0deg);
+  }
+  70% {
+    transform: translate3d(-15%, -15%, 0) rotateY(0deg) scale(0.7) skewY(0deg);
+  }
+  100% {
+    transform: translate3d(100%, 0%, 0) rotateY(0deg) scale(1) skewX(0deg);
+  }
+}
+.ico {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+
+.st-arrow {
+  fill: #fff;
+  animation: scrolly 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
+  perspective: 9000px;
+  transform: translateZ(0);
+  transform-origin: bottom;
+}
+
+.st-arrow.st-arrow_firstName {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_email {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_bday {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_uni {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_ecs {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_upload {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_academy {
+  fill: #737373;
+}
+
+.st-arrow.st-arrow_parent-details {
+  fill: #737373;
+}
+.st-arrow.st-arrow_opinion .svg {
+  z-index: 9;
+  position: relative;
+}
+
+@keyframes scrolly {
+  0% {
+    transform: translate3d(-150%, -20%, 0) rotateY(0deg) scale(0.5) skewY(0deg);
+  }
+  30% {
+    transform: translate3d(0, 0, 0) rotateY(0deg) scale(1) skewY(0deg);
+  }
+  70% {
+    transform: translate3d(-15%, -15%, 0) rotateY(0deg) scale(0.7) skewY(0deg);
+  }
+  100% {
+    transform: translate3d(100%, 0%, 0) rotateY(0deg) scale(1) skewX(0deg);
+  }
+}

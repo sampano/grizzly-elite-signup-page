@@ -1,0 +1,10 @@
+main {
+  background-image: url(../media/img/background_03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 576px) {
+  main {
+    background-position: right;
+  }
+}

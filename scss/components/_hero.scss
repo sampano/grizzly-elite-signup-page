@@ -1,0 +1,32 @@
+.hero {
+  height: 100vh;
+  .hero-container {
+    // border-top: 1px solid #ccc;
+    max-width: 1300px;
+    min-height: 729px;
+    margin: 0 auto;
+    position: relative;
+    // background-image: url(../media/img/background_04.png);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    .bg-img_top {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 400px;
+    }
+
+    .bg-img_bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: 150vh;
+  }
+}

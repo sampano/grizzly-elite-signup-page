@@ -1,0 +1,29 @@
+.get-birthday {
+  .get-birthday_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .get-birthday_input {
+      min-width: 343px;
+      margin: 0;
+    }
+
+    .get-birthday_select {
+      min-width: 343px;
+      margin: 0;
+    }
+  }
+
+  .get-bdate::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .get-birthday {
+    .get-birthday_container {
+      flex-wrap: wrap;
+    }
+  }
+}

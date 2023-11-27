@@ -1,0 +1,32 @@
+.landing-testimonials {
+  background-image: url(../media/img/landing-background_01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .testimonial-box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 30%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .image-container {
+      max-width: 45px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonials-container {
+    flex-wrap: wrap;
+    .testimonial-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}

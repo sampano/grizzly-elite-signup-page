@@ -1,0 +1,23 @@
+.display_inline {
+  display: inline;
+}
+
+.display_block {
+  display: block;
+}
+
+.display_inline-block {
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  .m-display_none {
+    display: none;
+  }
+  .m-display_block {
+    display: block;
+  }
+  .flex-direction_col-rev {
+    flex-direction: column-reverse;
+  }
+}

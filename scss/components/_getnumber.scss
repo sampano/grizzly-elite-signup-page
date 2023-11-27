@@ -1,0 +1,51 @@
+.get-number {
+  .get-number_container {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .get-number_input {
+      display: none;
+    }
+
+    .get-number_input:checked + label {
+      border-color: #fff;
+      background-color: #b21b20;
+    }
+
+    .get-number_label {
+      padding: 0;
+      border-radius: 15px;
+      background-color: #7f7f7f;
+      border: 5px solid #505050;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      transform: rotate(45deg);
+    }
+
+    .get-number_item {
+      transform: rotate(-45deg);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .get-number {
+    .get-number_container {
+      .get-number_label {
+        border-radius: 10px;
+        border: 2px solid #505050;
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

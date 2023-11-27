@@ -1,0 +1,2358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FOR SEO" />
+    <meta name="keywords" content="FOR SEO" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Grizzly Elite</title>
+    <link rel="icon" type="image/x-icon" href="./media/icons/favicon.png" />
+  </head>
+  <body>
+    <header class="bg-color_primary m-pt-0">
+      <nav class="nav m-pb-10 m-pt-10">
+        <div class="previous-button m-width_30" style="display: none">
+          <div class="btn btn-prev disabled">
+            <img src="./media/icons/previous_icon.png" alt="previous icon" />
+          </div>
+        </div>
+
+        <div class="nav-logo m-width_30">
+          <a href="#">
+            <img
+              src="./media/logo/Grizzly_Smaller_Logo_Red.png"
+              alt="Grizzly Logo Red"
+            />
+          </a>
+        </div>
+        <div class="timer m-width_100 text-align_center m-text-align_center">
+          <div class="timer-container">
+            <p class="font-size_18px font-color_white font-weight_600">
+              00:<span class="font-color_red" id="grizzlyTimer"></span>
+            </p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="container">
+            <div class="step-1" id="checkout-progress" data-current-step="1">
+              <div class="progress-bar">
+                <div class="step step-0">
+                  <div class="opaque"></div>
+                </div>
+                <div class="step step-1">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-2">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-3">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-4">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-5">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-6">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-7">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-8">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-9">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-10">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-11">
+                  <div class="opaque"></div>
+                  <!-- <div class="round-center"></div> -->
+                </div>
+                <!-- <div class="step step-12">
+                  <div class="opaque"></div>
+                  <div class="round-center"></div>
+                </div>
+                <div class="step step-13">
+                  <div class="opaque"></div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="container get-started">
+            <div
+              class="font-color_white text-align_center pl-120 pr-120 m-pr-0 m-pl-0"
+            >
+              <h3 class="font-weight_400 pt-50 m-font-size_26px m-pt-20">
+                For Students in
+              </h3>
+              <h1
+                class="font-weight_700 mb-30 pl-130 pr-130 font-size_54px m-font-size_44px m-pl-0 m-pr-0"
+              >
+                Grizzly <span class="font-color_orange">Elite</span> Training
+                Academy Application
+              </h1>
+              <p class="pl-90 pr-90 m-pl-0 m-pr-0">
+                This is an elite, invite-only, academy of top grizzlies (our
+                code word for an ambitious high school student) who want to get
+                into their dream Elite University by becoming
+                <span class="text-decoration_underline">THAT</span> Ultra High
+                Achieving Student (aka a stud).
+              </p>
+              <p class="pl-90 pr-90 m-pl-0 m-pr-0">
+                However, we only accept those who are willing to take obsessive
+                action. If that’s you, then Let’s Do It!
+              </p>
+              <a href="#" class="button_primary" id="get-started"
+                >GET STARTED
+                <div class="ico animated">
+                  <svg
+                    class="svg"
+                    fill="#000000"
+                    height="40px"
+                    width="40px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330 330"
+                    xml:space="preserve"
+                  >
+                    <defs>
+                      <clipPath id="cut-off-arrow">
+                        <circle cx="306" cy="306" r="287" />
+                      </clipPath>
+
+                      <filter id="goo">
+                        <feGaussianBlur
+                          in="SourceGraphic"
+                          stdDeviation="10"
+                          result="blur"
+                        />
+                        <feColorMatrix
+                          in="blur"
+                          mode="matrix"
+                          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                          result="goo"
+                        />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                      </filter>
+                    </defs>
+                    <path
+                      id="XMLID_27_"
+                      class="st-arrow"
+                      d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                        s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                        c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                    />
+                  </svg></div
+              ></a>
+              <div class="rating pb-80 pt-30 m-pb-20">
+                <img src="./media/icons/five_star.png" alt="five star rating" />
+                <p class="mb-0">5 stars out of 25+ reviews</p>
+              </div>
+            </div>
+          </div>
+
+          <form id="grizzlyForm">
+            <div class="get-name section1" id="section1" style="display: none">
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h1 class="pb-30 m-font-size_32px">
+                    Okay, we’ll make this quick and painless (pinky promise).
+                    But before we start - we don't wanna be rude… So what’s your
+                    name?
+                  </h1>
+                  <div class="mb-50">
+                    <input
+                      class="display_block hero-input get-input"
+                      type="text"
+                      placeholder="Enter Your Name"
+                      id="firstName"
+                      required
+                      name="firstName"
+                      oninput="clearInvalidMessage()"
+                    />
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      disabled
+                      onclick="formValidation()"
+                      id="btnFirstName"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_firstName"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="get-email section2" id="section2" style="display: none">
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h1
+                    id="welcomeMessage"
+                    class="pb-30 pl-50 pr-50 m-font-size_32px"
+                  ></h1>
+                  <div class="mb-50">
+                    <input
+                      class="display_block hero-input get-input"
+                      type="email"
+                      placeholder="Enter Your E-mail"
+                      id="eMail"
+                      required
+                      name="eMail"
+                      oninput="clearInvalidMessage()"
+                    />
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                      id="btnEmail"
+                      disabled
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_email"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-birthday section3"
+              id="section3"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h1 class="pb-30 pl-50 pr-50 m-pl-0 m-pr-0 m-font-size_32px">
+                    BOOM! Now What’s Your High School Graduation Year and
+                    Birthday?
+                  </h1>
+                  <div class="pb-50">
+                    <div class="get-birthday_container">
+                      <div>
+                        <input
+                          class="hero-input get-birthday_input get-input get-bdate"
+                          type="text"
+                          placeholder="Birthday"
+                          id="birthDate"
+                          onfocus="(this.type='date')"
+                          onblur="(this.type='text')"
+                          required
+                          name="birthDate"
+                          oninput="clearInvalidMessage()"
+                        />
+                      </div>
+                      <input
+                        class="hero-select get-birthday_select get-input"
+                        type="text"
+                        placeholder="Graduation Year-"
+                        list="gradYearList"
+                        name="gradYearList"
+                        id="gradYear"
+                        oninput="clearInvalidMessage()"
+                      />
+                      <datalist id="gradYearList">
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                      </datalist>
+                    </div>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                      id="btnBday"
+                      disabled
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_bday"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="get-uni section4" id="section4" style="display: none">
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h1 class="pb-30 pl-80 pr-80 m-pl-0 m-pr-0 m-font-size_32px">
+                    Great, now let’s get you IN. What are your dream Elite
+                    Universities?
+                  </h1>
+                  <div class="mb-50">
+                    <input
+                      class="display_block hero-input get-input"
+                      type="text"
+                      placeholder="Enter Your Dream University Name"
+                      required
+                      id="dreamUni"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <!-- <span
+                      class="field-error input-field-error"
+                      id="dreamUniErr"
+                    ></span> -->
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-next button_primary"
+                    onclick="formValidation()"
+                    id="btnUni"
+                    disabled
+                  >
+                    Next
+                    <div class="ico animated">
+                      <svg
+                        class="svg"
+                        fill="#000000"
+                        height="40px"
+                        width="40px"
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 330 330"
+                        xml:space="preserve"
+                      >
+                        <defs>
+                          <clipPath id="cut-off-arrow">
+                            <circle cx="306" cy="306" r="287" />
+                          </clipPath>
+
+                          <filter id="goo">
+                            <feGaussianBlur
+                              in="SourceGraphic"
+                              stdDeviation="10"
+                              result="blur"
+                            />
+                            <feColorMatrix
+                              in="blur"
+                              mode="matrix"
+                              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                              result="goo"
+                            />
+                            <feBlend in="SourceGraphic" in2="goo" />
+                          </filter>
+                        </defs>
+                        <path
+                          id="XMLID_27_"
+                          class="st-arrow st-arrow_uni"
+                          d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                            s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                            c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="get-ecs section5" id="section5" style="display: none">
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h1 class="pb-30 pl-80 pr-80 m-pl-0 m-pr-0 m-font-size_32px">
+                    You’re making progress. Please List out Your Three “Best”
+                    ECs.
+                  </h1>
+
+                  <div class="get-ecs_container pb-50">
+                    <div class="">
+                      <div>
+                        <input
+                          class="hero-select get-ecs_select get-input mb-30"
+                          type="text"
+                          placeholder="1."
+                          list="questionEc1List"
+                          name="questionEc1List"
+                          id="questionEc1"
+                          oninput="clearInvalidMessage()"
+                        />
+                        <datalist id="questionEc1List">
+                          <option>
+                            Community Outreach Program Coordinator.
+                          </option>
+                          <option>
+                            STEM Research Intern at XYZ Research Institute.
+                          </option>
+                          <option>
+                            Founder and President of School Coding Club.
+                          </option>
+                        </datalist>
+                      </div>
+                      <div>
+                        <input
+                          class="hero-select get-ecs_select get-input mb-30"
+                          type="text"
+                          placeholder="2."
+                          list="questionEc2List"
+                          name="questionEc2List"
+                          id="questionEc2"
+                          oninput="clearInvalidMessage()"
+                        />
+                        <datalist id="questionEc2List">
+                          <option>
+                            Community Outreach Program Coordinator.
+                          </option>
+                          <option>
+                            STEM Research Intern at XYZ Research Institute.
+                          </option>
+                          <option>
+                            Founder and President of School Coding Club.
+                          </option>
+                        </datalist>
+                      </div>
+                      <div>
+                        <input
+                          class="hero-select get-ecs_select get-input mb-30"
+                          type="text"
+                          placeholder="3."
+                          list="questionEc3List"
+                          name="questionEc3List"
+                          id="questionEc3"
+                          oninput="clearInvalidMessage()"
+                        />
+                        <datalist id="questionEc3List">
+                          <option>
+                            Community Outreach Program Coordinator.
+                          </option>
+                          <option>
+                            STEM Research Intern at XYZ Research Institute.
+                          </option>
+                          <option>
+                            Founder and President of School Coding Club.
+                          </option>
+                        </datalist>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                      id="btnEcs"
+                      disabled
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_ecs"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="get-ecs section6" id="section6" style="display: none">
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-40 pr-40 m-pl-0 m-pr-0"
+                >
+                  <h1 id="getEcsMessage" class="pb-30 m-font-size_32px"></h1>
+                  <div class="mb-50">
+                    <input
+                      class="display_block hero-input get-input"
+                      type="text"
+                      placeholder="Your Opinion"
+                      required
+                      id="yourOpinion"
+                      name="yourOpinion"
+                      oninput="clearInvalidMessage()"
+                    />
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                      id="btnOpinion"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_opinion"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-grades section7"
+              id="section7"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-40 pr-40 pb-50 m-pl-0 m-pr-0"
+                >
+                  <h1 class="pb-30 m-font-size_32px">
+                    We only accept the best of the best. So, please upload a
+                    picture of your last 7 (or of your last 96%+) in school.
+                    This can also be a screenshot of your grades online/canvas.
+                  </h1>
+                  <div class="mb-30">
+                    <input
+                      class="display_block hero-input file-images_input get-input"
+                      type="file"
+                      placeholder="No Choose File"
+                      id="fileUpload"
+                      name="fileUpload"
+                      multiple="true"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <label for="fileUpload" class="file-images_label"
+                      ><div class="file-images_label-container">
+                        <div class="choose-file">
+                          <p
+                            class="width_20 mb-0 display_inline"
+                            id="fileUploadLabel"
+                          >
+                            No Choose File
+                          </p>
+                        </div>
+                        <div class="upload-file">
+                          <p
+                            class="width_20 mb-0 font-size_14px display_inline"
+                          >
+                            Upload File
+                          </p>
+                        </div>
+                      </div></label
+                    >
+                    <div id="file-list"></div>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                      id="btnUpload"
+                      disabled
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_upload"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-answer section8"
+              id="section8"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h1
+                    class="pb-30 pl-100 pr-100 m-pl-0 m-pr-0 m-font-size_32px"
+                  >
+                    Why do you think you'd be a good fit for The Academy?
+                  </h1>
+                  <div class="mb-50">
+                    <input
+                      class="display_block hero-input get-input"
+                      type="text"
+                      placeholder="Answer"
+                      required
+                      id="academyQuestion"
+                      name="academyQuestion"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <!-- <span class="field-error" id="academyQuestion"></span> -->
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                      disabled
+                      id="btnAcademy"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow st-arrow_academy"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-number section9"
+              id="section9"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-40 pr-40 m-pl-0 m-pr-0"
+                >
+                  <h4 class="font-weight_400 mb-20" id="getNumMessage"></h4>
+                  <h1 class="pb-30 m-font-size_32px">
+                    On a scale of 1-10... (1 being I'm fine where I am, and 10
+                    being I'll do anything to get into my dream university.)
+                    What number are you
+                  </h1>
+                  <div class="get-number_container pb-50">
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber1"
+                        name="getScale"
+                        checked
+                      />
+
+                      <label for="getNumber1" class="get-number_label">
+                        <div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            1
+                          </p>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber2"
+                        name="getScale"
+                      />
+                      <label for="getNumber2" class="get-number_label">
+                        <div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            2
+                          </p>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber3"
+                        name="getScale"
+                      />
+                      <label for="getNumber3" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            3
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber4"
+                        name="getScale"
+                      />
+                      <label for="getNumber4" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            4
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber5"
+                        name="getScale"
+                      />
+                      <label for="getNumber5" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            5
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber6"
+                        name="getScale"
+                      />
+                      <label for="getNumber6" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            6
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber7"
+                        name="getScale"
+                      />
+                      <label for="getNumber7" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            7
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber8"
+                        name="getScale"
+                      />
+                      <label for="getNumber8" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            8
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input"
+                        type="radio"
+                        id="getNumber9"
+                        name="getScale"
+                      />
+                      <label for="getNumber9" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            9
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <div class="">
+                      <input
+                        class="display_block hero-input mb-50 get-number_input get-input"
+                        type="radio"
+                        id="getNumber10"
+                        name="getScale"
+                      />
+                      <label for="getNumber10" class="get-number_label"
+                        ><div class="get-number_item">
+                          <p
+                            class="mb-0 font-size_20px font-weight_700 m-font-size_14px"
+                          >
+                            10
+                          </p>
+                        </div></label
+                      >
+                    </div>
+                    <span class="field-error" id="getScaleErr"></span>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-brand section10"
+              id="section10"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-40 pr-40 m-pl-0 m-pr-0"
+                >
+                  <h1 class="pb-30 m-font-size_32px">
+                    Where Did Our Brand First Catch Your Attention?
+                  </h1>
+                  <div class="get-brand_container pb-50">
+                    <div class="get-brand_radio-container text-align_center">
+                      <input
+                        class="display_block hero-input mb-50 get-brand_input get-input"
+                        type="radio"
+                        id="getBrand1"
+                        name="getBrand"
+                        checked
+                      />
+                      <label for="getBrand1" class="get-brand_label"
+                        ><div class="get-brand_img">
+                          <img
+                            src="./media/icons/youtube_icon.png"
+                            alt="youtube icon"
+                          /></div
+                      ></label>
+                      <p class="pt-20">YouTube</p>
+                    </div>
+                    <div class="get-brand_radio-container text-align_center">
+                      <input
+                        class="display_block hero-input mb-50 get-brand_input get-input"
+                        type="radio"
+                        id="getBrand2"
+                        name="getBrand"
+                      />
+                      <label for="getBrand2" class="get-brand_label"
+                        ><div class="get-brand_img">
+                          <img
+                            src="./media/icons/counselor_icon.png"
+                            alt="youtube icon"
+                          /></div
+                      ></label>
+                      <p class="pt-20">Counselor</p>
+                    </div>
+                    <div class="get-brand_radio-container text-align_center">
+                      <input
+                        class="display_block hero-input mb-50 get-brand_input get-input"
+                        type="radio"
+                        id="getBrand3"
+                        name="getBrand"
+                      />
+                      <label for="getBrand3" class="get-brand_label"
+                        ><div class="get-brand_img">
+                          <img
+                            src="./media/icons/referral_icon.png"
+                            alt="youtube icon"
+                          /></div
+                      ></label>
+                      <p class="pt-20">Referral</p>
+                    </div>
+                    <div class="get-brand_radio-container text-align_center">
+                      <input
+                        class="display_block hero-input mb-50 get-brand_input get-input"
+                        type="radio"
+                        id="getBrand4"
+                        name="getBrand"
+                      />
+                      <label for="getBrand4" class="get-brand_label"
+                        ><div class="get-brand_img">
+                          <img
+                            src="./media/icons/reddit_icon.png"
+                            alt="youtube icon"
+                          /></div
+                      ></label>
+                      <p class="pt-20">Reddit</p>
+                    </div>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-interview section11"
+              id="section11"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h4 class="font-weight_400 mb-20">
+                    You’re almost there (three more questions to go!)
+                  </h4>
+                  <h1 class="pb-30 pl-60 pr-60 m-pl-0 m-pr-0 m-font-size_32px">
+                    Do you pinky promise that if you qualify for an interview,
+                    you will show up at the selected time?
+                  </h1>
+                  <div class="get-interview_container pb-50">
+                    <div
+                      class="get-interview_radio-container text-align_center"
+                    >
+                      <input
+                        class="display_block hero-input mb-50 get-interview_input get-input"
+                        type="radio"
+                        id="getInterviewYes"
+                        name="getInterview"
+                        checked
+                      />
+                      <label for="getInterviewYes" class="get-interview_label"
+                        ><div class="get-interview_img">
+                          <img
+                            src="./media/icons/bjorn_yes_icon.png"
+                            alt="Bjorn icon"
+                          />
+                          <p class="pt-20 font-weight_600 font-size_24px">
+                            Yes
+                          </p>
+                        </div></label
+                      >
+                    </div>
+
+                    <div
+                      class="get-interview_radio-container text-align_center"
+                    >
+                      <input
+                        class="display_block hero-input mb-50 get-interview_input get-input"
+                        type="radio"
+                        id="getInterviewNo"
+                        name="getInterview"
+                      />
+                      <label
+                        for="getInterviewNo"
+                        class="get-interview_label get-interview_no"
+                        ><div class="get-interview_img">
+                          <img
+                            src="./media/icons/jerry_no_icon.png"
+                            alt="jerry icon"
+                          />
+                          <p class="pt-20 font-weight_600 font-size_24px">No</p>
+                        </div></label
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-payment section12"
+              id="section12"
+              style="display: none"
+            >
+              <div class="container">
+                <div
+                  class="font-color_white text-align_center pl-80 pr-80 m-pl-0 m-pr-0"
+                >
+                  <h4 class="font-weight_400 mb-20" id="getPayment"></h4>
+                  <h1 class="pb-30 pl-60 pr-60 m-pl-0 m-pr-0 m-font-size_32px">
+                    If you qualify, will you be able to commit to $295 a month?
+                  </h1>
+                  <div class="get-payment_container pb-50">
+                    <div class="get-payment_radio-container text-align_center">
+                      <input
+                        class="display_block hero-input mb-50 get-payment_input get-input"
+                        type="radio"
+                        id="getPaymentYes"
+                        name="getPayment"
+                        checked
+                      />
+                      <label for="getPaymentYes" class="get-payment_label"
+                        ><div class="get-payment_img">
+                          <img
+                            src="./media/icons/bjorn_yes_icon.png"
+                            alt="Bjorn icon"
+                          />
+                          <p class="pt-20 font-weight_600 font-size_24px">
+                            Yes
+                          </p>
+                        </div></label
+                      >
+                    </div>
+
+                    <div class="get-payment_radio-container text-align_center">
+                      <input
+                        class="display_block hero-input mb-50 get-payment_input get-input"
+                        type="radio"
+                        id="getPaymentNo"
+                        name="getPayment"
+                      />
+                      <label
+                        for="getPaymentNo"
+                        class="get-payment_label get-payment_no"
+                        ><div class="get-payment_img">
+                          <img
+                            src="./media/icons/jerry_no_icon.png"
+                            alt="jerry icon"
+                          />
+                          <p class="pt-20 font-weight_600 font-size_24px">No</p>
+                        </div></label
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-next button_primary"
+                      onclick="formValidation()"
+                    >
+                      Next
+                      <div class="ico animated">
+                        <svg
+                          class="svg"
+                          fill="#000000"
+                          height="40px"
+                          width="40px"
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          viewBox="0 0 330 330"
+                          xml:space="preserve"
+                        >
+                          <defs>
+                            <clipPath id="cut-off-arrow">
+                              <circle cx="306" cy="306" r="287" />
+                            </clipPath>
+
+                            <filter id="goo">
+                              <feGaussianBlur
+                                in="SourceGraphic"
+                                stdDeviation="10"
+                                result="blur"
+                              />
+                              <feColorMatrix
+                                in="blur"
+                                mode="matrix"
+                                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                                result="goo"
+                              />
+                              <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                          </defs>
+                          <path
+                            id="XMLID_27_"
+                            class="st-arrow"
+                            d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                              s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                              c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                          />
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="get-details section13 m-pb-30"
+              id="section13"
+              style="display: none"
+            >
+              <div class="container">
+                <div class="font-color_white text-align_center">
+                  <h1 class="pb-30 m-font-size_32px">
+                    YESSIR! Looks like you meet the basics for our application
+                    interview. Looks like we can help you DRAMATICALLY increase
+                    your university acceptance odds using our proven formulas,
+                    strategies, and resources.
+                  </h1>
+                  <h4 class="font-weight_400 mb-20">
+                    Please fill out your details and you’ll be taken to a
+                    calendar
+                  </h4>
+                  <div class="get-details_container">
+                    <input
+                      class="display_block hero-input mb-20 get-details_input get-input"
+                      type="text"
+                      placeholder="Your first name"
+                      id="yFirstName"
+                      name="yFirstName"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <input
+                      class="display_block hero-input mb-20 get-details_input get-input"
+                      type="text"
+                      placeholder="Your last name"
+                      id="yLastName"
+                      name="yLastName"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <input
+                      class="display_block hero-input mb-20 get-details_input get-input"
+                      type="email"
+                      placeholder="Your email"
+                      id="yEmail"
+                      name="yEmail"
+                      oninput="clearInvalidMessage()"
+                    />
+
+                    <input
+                      class="display_block hero-input mb-20 get-details_input get-input"
+                      type="tel"
+                      placeholder="Your phone number"
+                      id="yPhoneNumber"
+                      name="yPhoneNumber"
+                      oninput="clearInvalidMessage()"
+                    />
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  ></div>
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-next button_primary"
+                style="display: none"
+                onclick="formValidation()"
+                id="btnUserDetails"
+              >
+                Next
+                <div class="ico animated">
+                  <svg
+                    class="svg"
+                    fill="#000000"
+                    height="40px"
+                    width="40px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330 330"
+                    xml:space="preserve"
+                  >
+                    <defs>
+                      <clipPath id="cut-off-arrow">
+                        <circle cx="306" cy="306" r="287" />
+                      </clipPath>
+
+                      <filter id="goo">
+                        <feGaussianBlur
+                          in="SourceGraphic"
+                          stdDeviation="10"
+                          result="blur"
+                        />
+                        <feColorMatrix
+                          in="blur"
+                          mode="matrix"
+                          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                          result="goo"
+                        />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                      </filter>
+                    </defs>
+                    <path
+                      id="XMLID_27_"
+                      class="st-arrow"
+                      d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                        s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                        c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </form>
+          <form id="grizzlyParentForm">
+            <div
+              class="get-details section14 m-pb-30"
+              id="section14"
+              style="display: none"
+            >
+              <div class="container">
+                <div class="font-color_white text-align_center">
+                  <h1 class="pb-30 m-font-size_32px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laudantium, ipsam?
+                  </h1>
+                  <h4 class="font-weight_400 mb-20">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                  <div class="get-details_container">
+                    <input
+                      class="display_block hero-input mb-20 get-details_input"
+                      type="text"
+                      placeholder="Parent first name"
+                      id="yParentFirstName"
+                      name="yParentFirstName"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <input
+                      class="display_block hero-input mb-20 get-details_input"
+                      type="text"
+                      placeholder="Parent last name"
+                      id="yParentLastName"
+                      name="yParentLastName"
+                      oninput="clearInvalidMessage()"
+                    />
+                    <input
+                      class="display_block hero-input mb-20 get-details_input"
+                      type="email"
+                      placeholder="Parent email"
+                      id="yParentEmail"
+                      name="yParentEmail"
+                      oninput="clearInvalidMessage()"
+                    />
+
+                    <input
+                      class="display_block hero-input mb-20 get-details_input"
+                      type="tel"
+                      placeholder="Your phone number"
+                      id="yParentPhoneNumber"
+                      name="yParentPhoneNumber"
+                      oninput="clearInvalidMessage()"
+                    />
+                  </div>
+                  <div
+                    class="container next-button-container text-align_center"
+                    style="display: none"
+                  ></div>
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-submit button_primary"
+                style="display: none"
+                onclick="formValidation()"
+                id="parentDetails"
+                disabled
+              >
+                Submit
+                <div class="ico animated">
+                  <svg
+                    class="svg"
+                    fill="#000000"
+                    height="40px"
+                    width="40px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330 330"
+                    xml:space="preserve"
+                  >
+                    <defs>
+                      <clipPath id="cut-off-arrow">
+                        <circle cx="306" cy="306" r="287" />
+                      </clipPath>
+
+                      <filter id="goo">
+                        <feGaussianBlur
+                          in="SourceGraphic"
+                          stdDeviation="10"
+                          result="blur"
+                        />
+                        <feColorMatrix
+                          in="blur"
+                          mode="matrix"
+                          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                          result="goo"
+                        />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                      </filter>
+                    </defs>
+                    <path
+                      id="XMLID_27_"
+                      class="st-arrow st-arrow_parent-details"
+                      d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+                        s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+                        c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </form>
+          <div
+            class="get-verification pt-150"
+            id="#verification"
+            style="display: none"
+          >
+            <div class="container">
+              <div
+                class="get-verification_container font-color_white text-align_center pl-100 pr-100 m-pl-0 m-pr-0"
+              >
+                <div class="spin">
+                  <p
+                    class="font-size_32px font-weight_700"
+                    id="submissionPercent"
+                  ></p>
+                </div>
+
+                <h1
+                  class="pt-80 pb-30 pl-150 pr-150 m-pl-0 m-pr-0 m-font-size_32px"
+                >
+                  Please be patient as we verify your answers.
+                </h1>
+                <div class="get-verification_img-container">
+                  <img
+                    class="pl-20 pr-20 m-pb-30"
+                    src="./media/icons/google-fivestars_icon.png"
+                    alt="google rating"
+                  />
+                  <img
+                    class="pl-20 pr-20 m-pb-30"
+                    src="./media/icons/linkedin-fivestars_icon.png"
+                    alt="linkedin rating"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
+    <script>
+      const firstNameElement = document.getElementById("firstName");
+      const emailElement = document.getElementById("eMail");
+      const birthDateElement = document.getElementById("birthDate");
+      const gradYearElement = document.getElementById("gradYear");
+      const dreamUniElement = document.getElementById("dreamUni");
+      const ecElement1 = document.getElementById("questionEc1");
+      const ecElement2 = document.getElementById("questionEc2");
+      const ecElement3 = document.getElementById("questionEc3");
+      const yourOpinionElement = document.getElementById("yourOpinion");
+      const academyQuestionElement = document.getElementById("academyQuestion");
+      const yFirstNameElement = document.getElementById("yFirstName");
+      const yLastNameElement = document.getElementById("yLastName");
+      const yEmailElement = document.getElementById("yEmail");
+      const yPhoneNumberElement = document.getElementById("yPhoneNumber");
+      const getScalesElement = document.getElementsByName("getScale");
+      const getInterviewElement = document.getElementsByName("getInterview");
+      const getBrandElement = document.getElementsByName("getBrand");
+      const getPaymentElement = document.getElementsByName("getPayment");
+      const fileUploadElement = document.getElementById("fileUpload");
+      const yParentFirstNameElement =
+        document.getElementById("yParentFirstName");
+
+      const yParentLastNameElement = document.getElementById("yParentLastName");
+
+      const yParentPhoneNumberElement =
+        document.getElementById("yParentPhoneNumber");
+
+      const yParentEmailElement = document.getElementById("yParentEmail");
+      const stArrowsFirstName =
+        document.getElementsByClassName("st-arrow_firstName");
+      const btnFirstName = document.getElementById("btnFirstName");
+
+      const btnEmail = document.getElementById("btnEmail");
+      const stArrowsEmail = document.getElementsByClassName("st-arrow_email");
+
+      const btnBday = document.getElementById("btnBday");
+      const stArrowsBday = document.getElementsByClassName("st-arrow_bday");
+
+      const btnUni = document.getElementById("btnUni");
+      const stArrowsUni = document.getElementsByClassName("st-arrow_uni");
+
+      const btnEcs = document.getElementById("btnEcs");
+      const stArrowsEcs = document.getElementsByClassName("st-arrow_ecs");
+
+      const btnOpinion = document.getElementById("btnOpinion");
+      const stArrowsOpinion =
+        document.getElementsByClassName("st-arrow_opinion");
+
+      const btnUpload = document.getElementById("btnUpload");
+      const stArrowsUpload = document.getElementsByClassName("st-arrow_upload");
+
+      const btnAcademy = document.getElementById("btnAcademy");
+      const stArrowsAcademy =
+        document.getElementsByClassName("st-arrow_academy");
+
+      const btnParent = document.getElementById("parentDetails");
+      const stArrowsParent = document.getElementsByClassName(
+        "st-arrow_parent-details"
+      );
+
+      //ENABLE BUTTON
+      function enableButton(elementId, stArrows, buttonId, fillCondition) {
+        const button = document.getElementById(buttonId);
+        const fillValue = fillCondition ? "#fff" : "#737373";
+
+        button.disabled = !fillCondition;
+
+        for (let i = 0; i < stArrows.length; i++) {
+          stArrows[i].style.fill = fillValue;
+        }
+      }
+
+      function checkAndEnableButtons() {
+        enableButton(
+          "firstName",
+          stArrowsFirstName,
+          "btnFirstName",
+          firstNameElement.value.length !== 0
+        );
+        enableButton(
+          "email",
+          stArrowsEmail,
+          "btnEmail",
+          emailElement.value.length !== 0
+        );
+        enableButton(
+          "bday",
+          stArrowsBday,
+          "btnBday",
+          birthDateElement.value.length !== 0 ||
+            gradYearElement.value.length !== 0
+        );
+        enableButton(
+          "uni",
+          stArrowsUni,
+          "btnUni",
+          dreamUniElement.value.length !== 0
+        );
+        enableButton(
+          "ecs",
+          stArrowsEcs,
+          "btnEcs",
+          ecElement1.value.length !== 0 ||
+            ecElement2.value.length !== 0 ||
+            ecElement3.value.length !== 0
+        );
+        enableButton(
+          "opinion",
+          stArrowsOpinion,
+          "btnOpinion",
+          yourOpinionElement.value.length !== 0
+        );
+        enableButton(
+          "upload",
+          stArrowsUpload,
+          "btnUpload",
+          fileUploadElement.value.length !== 0
+        );
+        enableButton(
+          "academy",
+          stArrowsAcademy,
+          "btnAcademy",
+          academyQuestionElement.value.length !== 0
+        );
+        enableButton(
+          "parent",
+          stArrowsParent,
+          "parentDetails",
+          yParentFirstNameElement.value.length !== 0 ||
+            yParentLastNameElement.value.length !== 0 ||
+            yParentPhoneNumberElement.value.length !== 0 ||
+            yParentEmailElement.value.length !== 0
+        );
+      }
+
+      //PARENT FORM
+
+      function formValidation() {
+        const phoneNumberPattern = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+        let firstName = firstNameElement.value;
+        firstNameElement.setCustomValidity("");
+        if (firstNameElement.checkValidity()) {
+          // Move to the next step or perform other actions
+
+          if (firstName.length === 1) {
+            firstNameElement.setCustomValidity("Please enter a valid name.");
+
+            firstNameElement.reportValidity();
+          }
+        } else {
+          firstNameElement.setCustomValidity("This field is required.");
+
+          firstNameElement.reportValidity();
+        }
+
+        emailElement.setCustomValidity("");
+
+        // Check the validity of the email input
+        if (emailElement.checkValidity()) {
+        } else {
+          // Set a custom validity message
+          emailElement.setCustomValidity("Please enter a valid email.");
+
+          // Trigger validation to display the custom message
+          emailElement.reportValidity();
+        }
+
+        birthDateElement.setCustomValidity("");
+        let birthDate = birthDateElement.value;
+        const today = new Date();
+
+        if (birthDateElement.checkValidity()) {
+          if (new Date(birthDate) > today) {
+            birthDateElement.setCustomValidity(
+              "Birth date cannot be in the future."
+            );
+            birthDateElement.reportValidity();
+          } else {
+            const ageDifferences =
+              today.getFullYear() - new Date(birthDate).getFullYear();
+            // Check if the user is less than 5 years old
+
+            if (ageDifferences < 5) {
+              birthDateElement.setCustomValidity("You are too young.");
+              birthDateElement.reportValidity();
+            }
+          }
+        } else {
+          birthDateElement.setCustomValidity("This field is required.");
+
+          birthDateElement.reportValidity();
+        }
+
+        gradYearElement.setCustomValidity("");
+
+        if (gradYearElement.checkValidity() && gradYearElement.value !== "") {
+          if (
+            isNaN(gradYearElement.value) ||
+            gradYearElement.value < new Date().getFullYear()
+          ) {
+            // Set a custom validity message
+            gradYearElement.setCustomValidity(
+              "Please select a valid graduation year."
+            );
+
+            gradYearElement.reportValidity();
+          }
+        } else {
+          gradYearElement.setCustomValidity("This field is required.");
+
+          gradYearElement.reportValidity();
+        }
+
+        dreamUniElement.setCustomValidity("");
+        dreamUni = dreamUniElement.value;
+
+        if (dreamUniElement.checkValidity()) {
+          if (dreamUni.length === 1) {
+            dreamUniElement.setCustomValidity(
+              "Please enter a valid University."
+            );
+
+            dreamUniElement.reportValidity();
+          }
+        } else {
+          dreamUniElement.setCustomValidity("This field is required.");
+
+          dreamUniElement.reportValidity();
+        }
+
+        ecElement1.setCustomValidity("");
+        questionEc1 = ecElement1.value;
+
+        if (ecElement1.checkValidity()) {
+          if (questionEc1 === "") {
+            ecElement1.setCustomValidity("Please enter a valid EC.");
+
+            ecElement1.reportValidity();
+          }
+        } else {
+          ecElement1.setCustomValidity("This field is required.");
+
+          ecElement1.reportValidity();
+        }
+
+        ecElement2.setCustomValidity("");
+        questionEc2 = ecElement2.value;
+
+        if (ecElement2.checkValidity()) {
+          if (questionEc2 === "") {
+            ecElement2.setCustomValidity("Please enter a valid EC.");
+
+            ecElement2.reportValidity();
+          }
+        } else {
+          ecElement2.setCustomValidity("This field is required.");
+
+          ecElement2.reportValidity();
+        }
+
+        ecElement3.setCustomValidity("");
+        questionEc3 = ecElement3.value;
+
+        if (ecElement3.checkValidity()) {
+          if (questionEc3 === "") {
+            ecElement3.setCustomValidity("Please enter a valid EC.");
+
+            ecElement3.reportValidity();
+          }
+        } else {
+          ecElement3.setCustomValidity("This field is required.");
+
+          ecElement3.reportValidity();
+        }
+
+        yourOpinionElement.setCustomValidity("");
+        yourOpinion = yourOpinionElement.value;
+
+        if (yourOpinionElement.checkValidity()) {
+          if (yourOpinion.length === 1) {
+            yourOpinionElement.setCustomValidity("Please enter a valid input.");
+
+            yourOpinionElement.reportValidity();
+          }
+        } else {
+          yourOpinionElement.setCustomValidity("This field is required.");
+
+          yourOpinionElement.reportValidity();
+        }
+
+        academyQuestionElement.setCustomValidity("");
+        academyQuestion = academyQuestionElement.value;
+
+        if (academyQuestionElement.checkValidity()) {
+          if (academyQuestion.length === 1) {
+            academyQuestionElement.setCustomValidity(
+              "Please enter a valid input."
+            );
+
+            academyQuestionElement.reportValidity();
+          }
+        } else {
+          academyQuestionElement.setCustomValidity("This field is required.");
+
+          academyQuestionElement.reportValidity();
+        }
+
+        yFirstName = yFirstNameElement.value;
+        yFirstNameElement.setCustomValidity("");
+        if (yFirstNameElement.checkValidity()) {
+          //console.log("validity");
+
+          if (yFirstName.length === 1) {
+            yFirstNameElement.setCustomValidity("Please enter a valid name.");
+
+            yFirstNameElement.reportValidity();
+          } else if (yFirstName.length === 0) {
+            yFirstNameElement.setCustomValidity("This field is required.");
+
+            yFirstNameElement.reportValidity();
+          }
+        } else {
+          yFirstNameElement.setCustomValidity("This field is required.hahaha");
+
+          yFirstNameElement.reportValidity();
+        }
+
+        yLastNameElement.setCustomValidity("");
+        yLastName = yLastNameElement.value;
+        if (yLastNameElement.checkValidity()) {
+          if (yLastName.length === 1) {
+            yLastNameElement.setCustomValidity("Please enter a valid name.");
+
+            yLastNameElement.reportValidity();
+          } else if (yLastName.length === 0) {
+            yLastNameElement.setCustomValidity("This field is required.");
+
+            yLastNameElement.reportValidity();
+          }
+        } else {
+          yLastNameElement.setCustomValidity("This field is required.");
+
+          yLastNameElement.reportValidity();
+        }
+
+        yEmailElement.setCustomValidity("");
+        yEmail = yEmailElement.value;
+        if (yEmailElement.checkValidity()) {
+          if (yEmail.length === 1) {
+            yEmailElement.setCustomValidity("Please enter a email.");
+
+            yEmailElement.reportValidity();
+          } else if (yEmail.length === 0) {
+            yEmailElement.setCustomValidity("This field is required.");
+
+            yEmailElement.reportValidity();
+          }
+        } else {
+          // Set a custom validity message
+          yEmailElement.setCustomValidity("Please enter a valid email.");
+
+          // Trigger validation to display the custom message
+          yEmailElement.reportValidity();
+        }
+
+        // Clear previous custom validity
+        yPhoneNumberElement.setCustomValidity("");
+
+        // Get the phone number input value
+        const yPhoneNumber = yPhoneNumberElement.value;
+
+        // Check if the phone number is empty
+        if (yPhoneNumber.length === 0) {
+          yPhoneNumberElement.setCustomValidity("This field is required.");
+          yPhoneNumberElement.reportValidity();
+        } else if (!phoneNumberPattern.test(yPhoneNumber)) {
+          yPhoneNumberElement.setCustomValidity(
+            "Please enter a valid phone number."
+          );
+          yPhoneNumberElement.reportValidity();
+        }
+
+        yParentFirstNameElement.setCustomValidity("");
+        yParentFirst = yParentFirstNameElement.value;
+        if (yParentFirstNameElement.checkValidity()) {
+          if (yParentFirst.length === 1) {
+            yParentFirstNameElement.setCustomValidity(
+              "Please enter a valid name."
+            );
+
+            yParentFirstNameElement.reportValidity();
+          } else if (yParentFirst.length === 0) {
+            yParentFirstNameElement.setCustomValidity(
+              "This field is required."
+            );
+
+            yParentFirstNameElement.reportValidity();
+          }
+        } else {
+          yParentFirstNameElement.setCustomValidity("This field is required.");
+
+          yParentFirstNameElement.reportValidity();
+        }
+
+        yParentLastNameElement.setCustomValidity("");
+        yParentLastName = yParentLastNameElement.value;
+        if (yParentLastNameElement.checkValidity()) {
+          if (yParentLastName.length === 1) {
+            yParentLastNameElement.setCustomValidity(
+              "Please enter a valid name."
+            );
+
+            yParentLastNameElement.reportValidity();
+          } else if (yParentLastName.length === 0) {
+            yParentLastNameElement.setCustomValidity("This field is required.");
+
+            yParentLastNameElement.reportValidity();
+          }
+        } else {
+          yParentLastNameElement.setCustomValidity("This field is required.");
+
+          yParentLastNameElement.reportValidity();
+        }
+
+        // Clear previous custom validity
+        yParentPhoneNumberElement.setCustomValidity("");
+
+        // Get the phone number input value
+        const yParentPhoneNumber = yParentPhoneNumberElement.value;
+
+        // Check if the phone number is empty
+        if (yParentPhoneNumber.length === 0) {
+          yParentPhoneNumberElement.setCustomValidity(
+            "This field is required."
+          );
+          yParentPhoneNumberElement.reportValidity();
+        } else if (!phoneNumberPattern.test(yParentPhoneNumber)) {
+          yParentPhoneNumberElement.setCustomValidity(
+            "Please enter a valid phone number."
+          );
+          yParentPhoneNumberElement.reportValidity();
+        }
+
+        yParentEmailElement.setCustomValidity("");
+        yParentEmail = yParentEmailElement.value;
+        if (yParentEmailElement.checkValidity()) {
+          if (yParentEmail.length === 1) {
+            yParentEmailElement.setCustomValidity("Please enter a email.");
+
+            yParentEmailElement.reportValidity();
+          } else if (yParentEmail.length === 0) {
+            yParentEmailElement.setCustomValidity("This field is required.");
+
+            yParentEmailElement.reportValidity();
+          }
+        } else {
+          // Set a custom validity message
+          yParentEmailElement.setCustomValidity("Please enter a valid email.");
+
+          // Trigger validation to display the custom message
+          yParentEmailElement.reportValidity();
+        }
+      }
+      function clearInvalidMessage() {
+        checkAndEnableButtons();
+        firstNameElement.setCustomValidity("");
+        emailElement.setCustomValidity("");
+        birthDateElement.setCustomValidity("");
+        gradYearElement.setCustomValidity("");
+        dreamUniElement.setCustomValidity("");
+        ecElement1.setCustomValidity("");
+        ecElement2.setCustomValidity("");
+        ecElement3.setCustomValidity("");
+        yourOpinionElement.setCustomValidity("");
+        academyQuestionElement.setCustomValidity("");
+        yPhoneNumberElement.setCustomValidity("");
+        yLastNameElement.setCustomValidity("");
+        yEmailElement.setCustomValidity("");
+        yFirstNameElement.setCustomValidity("");
+        yParentEmailElement.setCustomValidity("");
+        yParentPhoneNumberElement.setCustomValidity("");
+        yParentLastNameElement.setCustomValidity("");
+        yParentFirstNameElement.setCustomValidity("");
+      }
+
+      function updateTimer() {
+        let remainingTime = localStorage.getItem("remainingTime");
+
+        if (remainingTime === null) {
+          // If no remaining time is stored, set it to 15 minutes
+          remainingTime = 15 * 60;
+        } else {
+          // If remaining time is stored, convert it to a number
+          remainingTime = parseInt(remainingTime);
+        }
+
+        const timerDisplay = document.getElementById("grizzlyTimer");
+
+        function displayTime() {
+          let minutes = Math.floor(remainingTime / 60);
+          let seconds = remainingTime % 60;
+          timerDisplay.textContent = `${String(minutes).padStart(
+            2,
+            "0"
+          )}:${String(seconds).padStart(2, "0")}`;
+        }
+
+        displayTime();
+
+        let timerInterval = setInterval(function () {
+          remainingTime--;
+
+          localStorage.setItem("remainingTime", remainingTime);
+
+          displayTime();
+
+          if (remainingTime <= 0) {
+            clearInterval(timerInterval);
+            //timerDisplay.textContent = "Time is up!";
+            localStorage.removeItem("remainingTime");
+          }
+        }, 1000);
+      }
+      window.onload = updateTimer;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.get-started {
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .get-started {
+    .rating {
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.landing-schedule {
+  .calendar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .icon-container {
+      a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    }
+  }
+  .left-icon {
+    position: absolute;
+  }
+}
+
+@media (max-width: 576px) {
+  .landing-schedule {
+    .left-icon {
+      display: none;
+    }
+
+    .calendar-container {
+      flex-wrap: wrap;
+    }
+  }
+}

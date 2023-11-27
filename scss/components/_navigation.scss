@@ -1,0 +1,50 @@
+header {
+  border-bottom: 1px solid #ccc;
+  .nav {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 80px;
+    p {
+      margin-bottom: 0;
+    }
+
+    .timer {
+      width: 100px;
+      .timer-container {
+        border-top: 1px solid var(--bg-color-secondary);
+        border-bottom: 1px solid var(--bg-color-secondary);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+    .previous-button {
+      width: 100px;
+    }
+  }
+
+  @media (min-width: 1028px) {
+    .nav {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .nav {
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-wrap: wrap;
+      .nav-logo {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .timer {
+        width: 100%;
+      }
+    }
+  }
+}
